@@ -16,6 +16,8 @@ Like - até 3 likes deve mostrar as pessoas que "gostaram", após isso, mostrar 
 
 # POMODORO 1
 
-# Should return "no one likes this" when no names are sended.
+# Should return "no one likes this" when no names are sended. OK
 
-# Should return the name of the person when only one name is sent.
+# Should return the name of the person when only one name is sent. OK
+
+# Should return the name of the 2 names who liked.
