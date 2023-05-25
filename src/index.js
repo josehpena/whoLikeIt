@@ -5,6 +5,8 @@ const whoLikeIt = (likes) => {
         whoLike =  likes[0] + " likes this"
     else if(likes.length == 2)
         whoLike = likes[0] + " and " + likes[1] +  " like this"
+    else if(likes.length == 3)
+        whoLike = likes[0] + ", " + likes[1] + " and " + likes[2] + " like this"
     else 
         whoLike = "no one likes this"
 
