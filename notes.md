@@ -20,6 +20,8 @@ Like - até 3 likes deve mostrar as pessoas que "gostaram", após isso, mostrar 
 
 # Should return the name of the person when only one name is sent. OK
 
-# Should return the name of the 2 names who liked.
+# Should return the name of the 2 names who liked.OK
 
-# Should return the three names who liked.
+# Should return the three names who liked.OK
+
+# Should return the first two names who liked and the number of the rest who liked
