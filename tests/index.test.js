@@ -12,4 +12,8 @@ describe('whoLikeIt', () => {
     it('Should return the name of the 2 names who liked', () => {
         expect(whoLikeIt(["Jacob", "Alex"])).toBe("Jacob and Alex like this");
     });
+
+    it('Should return the three names who liked', () => {
+        expect(whoLikeIt(["Max", "John", "Mark"])).toBe("Max, John and Mark like this");
+    });
 });
