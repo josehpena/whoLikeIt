@@ -17,3 +17,5 @@ Like - até 3 likes deve mostrar as pessoas que "gostaram", após isso, mostrar 
 # POMODORO 1
 
 # Should return "no one likes this" when no names are sended.
+
+# Should return the name of the person when only one name is sent.
