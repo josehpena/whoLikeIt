@@ -25,3 +25,5 @@ Like - até 3 likes deve mostrar as pessoas que "gostaram", após isso, mostrar 
 # Should return the three names who liked.OK
 
 # Should return the first two names who liked and the number of the rest who liked
+
+# Refactoring using switch case.
