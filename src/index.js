@@ -1,10 +1,12 @@
 const whoLikeIt = (likes) => {
-    let whoLike = " likes this"
+    let whoLike = ""
 
-    if(likes.length > 0)
-        whoLike =  likes[0] + whoLike
+    if(likes.length == 1)
+        whoLike =  likes[0] + " likes this"
+    else if(likes.length == 2)
+        whoLike = likes[0] + " and " + likes[1] +  " like this"
     else 
-        whoLike = "no one" + whoLike
+        whoLike = "no one likes this"
 
     return whoLike
 }
