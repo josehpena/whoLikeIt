@@ -8,4 +8,8 @@ describe('whoLikeIt', () => {
     it('Should return the name of the person when only one name is sent', () => {
         expect(whoLikeIt(["Peter"])).toBe("Peter likes this");
     });
+
+    it('Should return the name of the 2 names who liked', () => {
+        expect(whoLikeIt(["Jacob", "Alex"])).toBe("Jacob and Alex like this");
+    });
 });
